@@ -23,7 +23,7 @@ export default function ShowsSection() {
               </p>
             </div>
             <a
-              href="https://www.mercadopago.com.ar/Mark.aguila"
+              href="https://mpago.la/2VbdUNd"
               target="_blank"
               rel="noreferrer"
               className="inline-flex rounded-full border border-white/10 bg-[#111]/90 px-6 py-4 text-center text-sm uppercase tracking-[0.18em] text-[#DCC08A] transition hover:bg-white/5"
