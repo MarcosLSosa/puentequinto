@@ -17,7 +17,7 @@ export default function ShowsSection() {
             <div>
               <p className="text-sm uppercase tracking-[0.35em] text-[#DCC08A]/80">Próximo show</p>
               <p className="mt-3 text-3xl font-semibold">Boliche Don Miranda</p>
-              <p className="mt-2 text-lg text-zinc-300">07/08 · 23:00</p>
+              <p className="mt-2 text-lg text-zinc-300">07/08 · 23:00 hs.</p>
               <p className="mt-4 rounded-full bg-[#111]/90 px-4 py-2 text-sm uppercase tracking-[0.18em] text-[#DCC08A] shadow-[0_10px_30px_-20px_rgba(220,192,138,0.75)]">
                 $8.000 pesos
               </p>
