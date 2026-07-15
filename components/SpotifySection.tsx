@@ -1,13 +1,13 @@
 export default function SpotifySection() {
   return (
-    <section id="musica" className="bg-[#080808] py-24 px-6 text-white">
-      <div className="mx-auto max-w-6xl">
-        <div className="mb-12 text-center">
-          <p className="text-sm uppercase tracking-[0.35em] text-[#DCC08A]/80">
+    <section id="musica" className="bg-[#080808] py-20 px-4 text-white sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-screen-xl">
+        <div className="mb-10 text-center">
+          <p className="text-[0.65rem] uppercase tracking-[0.35em] text-[#DCC08A]/80 sm:text-sm">
             Música destacada
           </p>
-          <h2 className="mt-4 text-5xl font-bold">PRIMER DISCO</h2>
-          <p className="mt-4 max-w-2xl mx-auto text-zinc-400">
+          <h2 className="mt-4 text-4xl font-bold sm:text-5xl md:text-6xl">PRIMER DISCO</h2>
+          <p className="mt-4 max-w-2xl mx-auto text-sm text-zinc-400 sm:text-base">
             Entrá en la vibra de Puente Quinto: ritmos cargados de groove, voces intensas y atmósferas que se quedan en la memoria.
           </p>
         </div>

@@ -1,12 +1,12 @@
 export default function ContactSection() {
   return (
-    <section id="contacto" className="bg-[#040404] text-white py-24 px-6">
+    <section id="contacto" className="bg-[#040404] text-white py-20 px-4 sm:px-6 lg:px-8">
       <div className="mx-auto max-w-4xl text-center">
-        <p className="text-sm uppercase tracking-[0.35em] text-[#DCC08A]/80">
+        <p className="text-[0.65rem] uppercase tracking-[0.35em] text-[#DCC08A]/80 sm:text-sm">
           Contacto
         </p>
-        <h2 className="mt-4 text-5xl font-bold">Contrataciones y prensa</h2>
-        <p className="mx-auto mt-6 max-w-2xl text-zinc-400">
+        <h2 className="mt-4 text-4xl font-bold sm:text-5xl">Contrataciones y prensa</h2>
+        <p className="mx-auto mt-6 max-w-2xl text-sm text-zinc-400 sm:text-base">
           Para shows, booking o consultas de prensa, escribinos y armamos juntos la experiencia.
         </p>
 
