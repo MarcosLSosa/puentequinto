@@ -19,9 +19,14 @@ export default function ShowsSection() {
               <p className="mt-3 text-3xl font-semibold">Boliche Don Miranda</p>
               <p className="mt-2 text-lg text-zinc-300">07/08 · 23:00</p>
             </div>
-            <div className="rounded-full border border-white/10 bg-[#111]/90 px-6 py-4 text-center text-sm uppercase tracking-[0.18em] text-[#DCC08A]">
-              ENTRADA LIBRE
-            </div>
+            <a
+              href="https://www.mercadopago.com.ar/Mark.aguila"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex rounded-full border border-white/10 bg-[#111]/90 px-6 py-4 text-center text-sm uppercase tracking-[0.18em] text-[#DCC08A] transition hover:bg-white/5"
+            >
+              CONSEGUÍ TU ENTRADA ONLINE
+            </a>
           </div>
         </div>
       </div>
