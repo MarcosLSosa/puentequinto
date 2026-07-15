@@ -27,7 +27,8 @@ export default function ContactSection() {
           <div className="mt-10 space-y-4 text-sm text-zinc-300">
             <p className="font-semibold text-white">Seguinos</p>
             <div className="flex flex-wrap items-center justify-center gap-4 text-white/80">
-              <a href="https://www.instagram.com/puentev.vm?utm_source=qr&igsh=MzZhMHdoeGkyc2Ru" target="_blank" rel="noreferrer" className="transition hover:text-[#DCC08A]">Instagram</a>
+              <a href="https://www.facebook.com/share/1EFZMCz3p3/" target="_blank" rel="noreferrer" className="transition hover:text-[#DCC08A]">Facebook</a>
+              <a href="https://www.instagram.com/puentev.vm?igsh=MzZhMHdoeGkyc2Ru" target="_blank" rel="noreferrer" className="transition hover:text-[#DCC08A]">Instagram</a>
               <a href="https://www.youtube.com/@puentequintooficial" target="_blank" rel="noreferrer" className="transition hover:text-[#DCC08A]">YouTube</a>
               <a href="https://open.spotify.com/intl-es/album/5xndVxhHlDhm6TpcLIkesu?si=tRjhc26XQ5WB3HLf2n0BRw" target="_blank" rel="noreferrer" className="transition hover:text-[#DCC08A]">Spotify</a>
               <a href="https://on.soundcloud.com/CRoqFIgveWs879apOI" target="_blank" rel="noreferrer" className="transition hover:text-[#DCC08A]">SoundCloud</a>
