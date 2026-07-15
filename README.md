@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Puente Quinto - Landing de banda
 
-## Getting Started
+Este repositorio contiene la landing page de **Puente Quinto**, una banda de **Villa Mercedes, San Luis**.
 
-First, run the development server:
+La página está diseñada como una experiencia moderna y oscura, con foco en:
+
+- sección de bienvenida con identidad visual
+- navegación fija con logo y menús de anclaje
+- música destacada con reproductor de Spotify
+- video principal de la banda
+- contacto directo para contrataciones via WhatsApp
+
+## Qué incluye
+
+- `app/page.tsx` — estructura principal de la página
+- `components/Navbar.tsx` — menú fijo con logo e links internos
+- `components/Hero.tsx` — sección de portada con mensaje de la banda
+- `components/SpotifySection.tsx` — embed de Spotify y pistas recomendadas
+- `components/VideosSection.tsx` — video destacado
+- `components/ContactSection.tsx` — datos de contratación y llamada a WhatsApp
+- `app/globals.css` — estilo global y tema oscuro
+
+## Cómo usar
+
+1. Instalar dependencias:
+
+```bash
+npm install
+```
+
+2. Iniciar el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. Abrir el sitio en el navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Diseño y contenido
 
-## Learn More
+El sitio funciona como una landing de presentación para la banda y busca transmitir:
 
-To learn more about Next.js, take a look at the following resources:
+- energía soul/funk
+- clima nocturno y emocional
+- fácil acceso a música y contacto
+- imagen de banda local de Villa Mercedes
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Personalización
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Puedes editar cualquier texto, enlaces o secciones desde los componentes de `components/`.
 
-## Deploy on Vercel
+- Cambiá el logo en `public/images/logo.jpg`
+- Modificá el embed de Spotify en `components/SpotifySection.tsx`
+- Cambiá el video en `components/VideosSection.tsx`
+- Actualizá el contacto en `components/ContactSection.tsx`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Nota
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+El proyecto está construido con **Next.js 16** y **Tailwind CSS 4**.
