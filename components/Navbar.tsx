@@ -1,12 +1,12 @@
 export default function Navbar() {
   return (
     <nav className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-black/95 backdrop-blur-xl text-white">
-      <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        <div className="flex items-center gap-4">
+      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-4 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <img
             src="/images/logo.jpg"
             alt="Puente Quinto logo"
-            className="h-14 w-14 rounded-full border border-white/10 object-cover"
+            className="h-12 w-12 rounded-full border border-white/10 object-cover sm:h-14 sm:w-14"
           />
           <div>
             <span className="text-xs uppercase tracking-[0.35em] text-[#DCC08A]">
@@ -16,7 +16,7 @@ export default function Navbar() {
           </div>
         </div>
 
-        <div className="flex items-center gap-8 text-sm font-medium uppercase tracking-[0.18em] text-white/80">
+        <div className="flex flex-wrap items-center justify-center gap-4 text-sm font-medium uppercase tracking-[0.18em] text-white/80 sm:justify-end sm:gap-8">
           <a href="#musica" className="transition hover:text-[#DCC08A]">
             #musica
           </a>

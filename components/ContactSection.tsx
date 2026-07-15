@@ -10,14 +10,14 @@ export default function ContactSection() {
           Para shows, booking o consultas de prensa, escribinos y armamos juntos la experiencia.
         </p>
 
-        <div className="mt-10 rounded-[2rem] border border-white/10 bg-white/5 p-10 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.8)]">
+        <div className="mt-10 rounded-[2rem] border border-white/10 bg-white/5 p-8 shadow-[0_30px_60px_-30px_rgba(0,0,0,0.8)] sm:p-10">
           <p className="text-lg font-semibold text-white">RG Manager</p>
           <p className="mt-2 text-3xl font-bold text-[#DCC08A]">+54 9 2657 23-6112</p>
           <a
             href="https://wa.me/5492657236112"
             target="_blank"
             rel="noreferrer"
-            className="mt-8 inline-flex rounded-full bg-[#DCC08A] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-black transition hover:bg-[#b69d5e]"
+            className="mt-8 inline-flex w-full justify-center rounded-full bg-[#DCC08A] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-black transition hover:bg-[#b69d5e] sm:w-auto"
           >
             WhatsApp
           </a>

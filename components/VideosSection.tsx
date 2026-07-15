@@ -13,14 +13,17 @@ export default function VideosSection() {
         </div>
 
         <div className="overflow-hidden rounded-[2rem] border border-white/10 shadow-[0_35px_70px_-40px_rgba(0,0,0,0.9)]">
-          <iframe
-            width="100%"
-            height="520"
-            src="https://www.youtube.com/embed/4s2G2UQgvcE"
-            title="Puente Quinto - Desvelo"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowFullScreen
-          />
+          <div className="aspect-video w-full">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/4s2G2UQgvcE"
+              title="Puente Quinto - Desvelo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="h-full w-full"
+            />
+          </div>
         </div>
       </div>
     </section>

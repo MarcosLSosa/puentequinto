@@ -15,13 +15,16 @@ export default function SpotifySection() {
         <div className="grid gap-8 lg:grid-cols-[1.5fr_1fr]">
           <div className="rounded-[2rem] border border-white/10 bg-white/5 p-6 shadow-[0_35px_70px_-40px_rgba(0,0,0,0.9)]">
             <div className="overflow-hidden rounded-[1.75rem] border border-white/10">
-              <iframe
-                src="https://open.spotify.com/embed/album/5xndVxhHlDhm6TpcLIkesu"
-                width="100%"
-                height="440"
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-                loading="lazy"
-              />
+              <div className="aspect-[16/9] w-full">
+                <iframe
+                  src="https://open.spotify.com/embed/album/5xndVxhHlDhm6TpcLIkesu"
+                  width="100%"
+                  height="100%"
+                  className="h-full w-full"
+                  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                  loading="lazy"
+                />
+              </div>
             </div>
           </div>
 
