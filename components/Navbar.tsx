@@ -1,7 +1,7 @@
 export default function Navbar() {
   return (
     <nav className="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-black/95 backdrop-blur-xl text-white">
-      <div className="mx-auto flex max-w-7xl flex-col gap-4 px-6 py-4 sm:flex-row sm:items-center sm:justify-between">
+      <div className="mx-auto flex max-w-screen-xl flex-col gap-3 px-6 py-4 sm:flex-row sm:items-center sm:justify-between sm:px-8 lg:px-10">
         <div className="flex flex-col gap-3 sm:flex-row sm:items-center">
           <img
             src="/images/logo.jpg"
