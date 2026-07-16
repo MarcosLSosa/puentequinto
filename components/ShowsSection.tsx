@@ -66,7 +66,7 @@ export default function ShowsSection() {
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Enviar comprobante por WhatsApp para validar ingreso y reservar mesa"
-                    className="inline-flex min-h-[3.5rem] items-center justify-center rounded-full bg-[#DCC08A] px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-black shadow-xl shadow-[#DCC08A]/20 transition hover:bg-[#f8d77f]"
+                    className="inline-flex min-h-[3.5rem] items-center justify-center rounded-full border border-white/10 bg-white/5 px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:border-[#DCC08A] hover:text-[#DCC08A] hover:bg-white/10"
                   >
                     Enviar comprobante
                   </a>
@@ -74,7 +74,7 @@ export default function ShowsSection() {
                     href="https://mpago.la/2VbdUNd"
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex min-h-[3.5rem] items-center justify-center rounded-full border border-white/10 bg-black/70 px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:border-[#DCC08A] hover:text-[#DCC08A]"
+                    className="inline-flex min-h-[3.5rem] items-center justify-center rounded-full border border-white/10 bg-white/5 px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:border-[#DCC08A] hover:text-[#DCC08A] hover:bg-white/10"
                   >
                     Comprar entrada
                   </a>
