@@ -34,9 +34,6 @@ export default function Hero() {
           <a href="#musica" className="rounded-full bg-[#DCC08A] px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-black shadow-xl shadow-[#DCC08A]/20">
             Escuchá ahora
           </a>
-          <a href="#contacto" className="rounded-full border border-white/15 px-8 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:border-[#DCC08A] hover:text-[#DCC08A]">
-            Contacto
-          </a>
         </div>
       </div>
     </section>
