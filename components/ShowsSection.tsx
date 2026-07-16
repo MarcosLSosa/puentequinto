@@ -62,7 +62,7 @@ export default function ShowsSection() {
                 </p>
                 <div className="grid gap-3 sm:grid-cols-2">
                   <a
-                    href="https://wa.me/549265527189?text=Hola%2C%20quiero%20validar%20mi%20entrada%20y%20reservar%20mi%20mesa."
+                    href="https://wa.me/5492657236112?text=Hola%2C%20quiero%20validar%20mi%20entrada%20y%20reservar%20mi%20mesa."
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Enviar comprobante por WhatsApp para validar ingreso y reservar mesa"
