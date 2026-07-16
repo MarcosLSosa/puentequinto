@@ -1,6 +1,6 @@
 export default function ShowsSection() {
   return (
-    <section id="shows" className="relative overflow-hidden bg-[#080808] py-24 px-6 text-white sm:px-8">
+    <section id="shows" className="relative overflow-hidden bg-[#080808] py-24 px-6 text-white sm:px-10 lg:px-12">
       <div className="absolute -right-24 top-10 h-72 w-72 rounded-full bg-[#DCC08A]/10 blur-3xl" />
       <div className="absolute left-10 top-1/2 h-56 w-56 rounded-full bg-white/5 blur-3xl" />
 
@@ -32,14 +32,15 @@ export default function ShowsSection() {
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               <div className="rounded-[1.5rem] border border-white/10 bg-[#111]/80 p-5">
                 <p className="text-sm uppercase tracking-[0.2em] text-[#DCC08A]/80">Lugar</p>
-                <p className="mt-3 text-lg font-semibold">Villa Mercedes</p>
+                <p className="mt-3 text-lg font-semibold">Boliche Don Miranda · Villa Mercedes</p>
+                <p className="mt-2 text-sm text-zinc-400">Encontranos fácil con el mapa del evento.</p>
                 <a
                   href="https://maps.app.goo.gl/9E5Skh7cM6tEuE2E7"
                   target="_blank"
                   rel="noreferrer"
                   className="mt-3 inline-flex items-center gap-2 text-sm font-semibold text-[#DCC08A] transition hover:text-[#f8d77f]"
                 >
-                  Ver ubicación
+                  Cómo llegar
                 </a>
               </div>
               <div className="rounded-[1.5rem] border border-white/10 bg-[#111]/80 p-5">
