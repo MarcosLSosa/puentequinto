@@ -46,39 +46,60 @@ export default function ShowsSection() {
               <div className="rounded-[1.5rem] border border-white/10 bg-[#111]/80 p-5">
                 <p className="text-sm uppercase tracking-[0.2em] text-[#DCC08A]/80">Cupos</p>
                 <p className="mt-3 text-lg font-semibold">Limitados</p>
+                <div className="mt-6 border-t border-white/10 pt-4">
+                  <p className="text-xs uppercase tracking-[0.2em] text-[#DCC08A]/80">Flyer</p>
+                  <a
+                    href="/images/flyer_puente_quinto_bolichelosmirandas.png"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="mt-3 inline-flex w-full items-center justify-center rounded-full border border-white/10 bg-white/5 px-4 py-3 text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:border-[#DCC08A] hover:text-[#DCC08A] hover:bg-white/10"
+                  >
+                    Ver flyer
+                  </a>
+                </div>
               </div>
             </div>
           </article>
 
           <aside className="rounded-[2rem] border border-[#DCC08A]/15 bg-gradient-to-br from-[#110f0d]/90 to-[#151314]/95 p-8 text-white shadow-[0_35px_70px_-40px_rgba(0,0,0,0.9)] sm:p-10">
             <div className="rounded-[1.75rem] border border-white/10 bg-[#090909]/95 p-6 shadow-2xl shadow-black/40">
-              <p className="text-sm uppercase tracking-[0.35em] text-[#DCC08A]/80">Entrada anticipada</p>
-              <p className="mt-3 text-3xl font-semibold">$8.000</p>
-              <p className="mt-2 text-sm text-zinc-400">Precio válido hasta agotar stock</p>
+              <div className="mb-6">
+                <p className="text-sm uppercase tracking-[0.35em] text-[#DCC08A]/80">Entrada anticipada</p>
+                <h3 className="mt-3 text-3xl font-semibold tracking-tight">Compra tu ticket</h3>
+                <p className="mt-2 text-sm text-zinc-400">Asegurá tu lugar y reservá tu mesa.</p>
+              </div>
 
-              <div className="mt-8 space-y-6">
-                <p className="rounded-2xl border border-white/10 bg-[#111]/90 px-5 py-4 text-sm text-zinc-300">
-                  Ya compraste tu entrada? Compartí el comprobante por WhatsApp para validar tu ingreso y reservar tu mesa.
-                </p>
-                <div className="grid gap-3 sm:grid-cols-2">
-                  <a
-                    href="https://wa.me/5492657527189?text=Hola%2C%20quiero%20validar%20mi%20entrada%20y%20reservar%20mi%20mesa."
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label="Enviar comprobante por WhatsApp para validar ingreso y reservar mesa"
-                    className="inline-flex min-h-[3.5rem] items-center justify-center rounded-full border border-white/10 bg-white/5 px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:border-[#DCC08A] hover:text-[#DCC08A] hover:bg-white/10"
-                  >
-                    Enviar comprobante
-                  </a>
-                  <a
-                    href="https://mpago.la/2VbdUNd"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="inline-flex min-h-[3.5rem] items-center justify-center rounded-full border border-white/10 bg-white/5 px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:border-[#DCC08A] hover:text-[#DCC08A] hover:bg-white/10"
-                  >
-                    Comprar entrada
-                  </a>
+              <div className="mt-6 grid gap-4 sm:grid-cols-2">
+                <div className="rounded-[1.5rem] border border-white/10 bg-[#111]/90 p-5">
+                  <p className="text-sm uppercase tracking-[0.18em] text-[#DCC08A]/80">Precio</p>
+                  <p className="mt-3 text-2xl font-semibold">$8.000</p>
                 </div>
+                <div className="rounded-[1.5rem] border border-white/10 bg-[#111]/90 p-5 text-sm text-zinc-300">
+                  <p className="font-semibold text-white uppercase tracking-[0.18em]">Entradas oficiales</p>
+                  <p className="mt-2">
+                    Comprá online y reservá tu mesa con total seguridad.
+                  </p>
+                </div>
+              </div>
+
+              <div className="mt-6 grid gap-3 sm:grid-cols-2">
+                <a
+                  href="https://wa.me/5492657527189?text=Hola%2C%20quiero%20validar%20mi%20entrada%20y%20reservar%20mi%20mesa."
+                  target="_blank"
+                  rel="noreferrer"
+                  aria-label="Enviar comprobante por WhatsApp para validar ingreso y reservar mesa"
+                  className="inline-flex min-h-[3.5rem] items-center justify-center rounded-full border border-white/10 bg-white/5 px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:border-[#DCC08A] hover:text-[#DCC08A] hover:bg-white/10"
+                >
+                  Enviar comprobante
+                </a>
+                <a
+                  href="https://mpago.la/2VbdUNd"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="inline-flex min-h-[3.5rem] items-center justify-center rounded-full border border-white/10 bg-white/5 px-6 py-4 text-center text-sm font-semibold uppercase tracking-[0.18em] text-white transition hover:border-[#DCC08A] hover:text-[#DCC08A] hover:bg-white/10"
+                >
+                  Comprar entrada
+                </a>
               </div>
             </div>
           </aside>
