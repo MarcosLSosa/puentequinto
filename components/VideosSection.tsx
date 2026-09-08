@@ -7,9 +7,6 @@ export default function VideosSection() {
             Video destacado
           </p>
           <h2 className="mt-4 text-4xl font-bold sm:text-5xl md:text-6xl">El fin</h2>
-          <p className="mt-4 max-w-2xl mx-auto text-sm text-zinc-400 sm:text-base">
-            Mirá el videoclip oficial con una producción intensa y la energía del sonido de Puente Quinto.
-          </p>
         </div>
 
         <div className="overflow-hidden rounded-[2rem] border border-white/10 shadow-[0_35px_70px_-40px_rgba(0,0,0,0.9)]">
@@ -25,14 +22,6 @@ export default function VideosSection() {
             />
           </div>
         </div>
-        <a
-          href="https://www.youtube.com/watch?v=rClnYgIbPU8"
-          target="_blank"
-          rel="noreferrer"
-          className="mt-4 inline-block text-sm text-[#DCC08A] underline underline-offset-4"
-        >
-          Ver video en YouTube
-        </a>
       </div>
     </section>
   );
