@@ -8,15 +8,15 @@ export const shows = [
     map: "https://maps.app.goo.gl/9E5Skh7cM6tEuE2E7"
   },
   {
-    date: "22 AGO",
+    date: "12 JUL",
     city: "VILLA MERCEDES",
     place: "EVENTO PRIVADO",
     status: "Show anterior"
   },
   {
-    date: "15 AGO",
+    date: "12 DIC",
     city: "SAN LUIS",
-    place: "CASINO NEW YORK",
+    place: "STONE BAR",
     status: "Show anterior"
   }
 ];
