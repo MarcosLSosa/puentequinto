@@ -15,7 +15,7 @@ export const shows = [
   },
   {
     date: "12 DIC",
-    city: "SAN LUIS",
+    city: "VILLA MERCEDES",
     place: "STONE BAR",
     status: "Show anterior"
   }
