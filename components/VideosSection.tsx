@@ -17,8 +17,8 @@ export default function VideosSection() {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/4s2G2UQgvcE"
-              title="Puente Quinto - Desvelo"
+              src="https://youtu.be/j-dvyyTvhSM?si=YG12tnkibGAUcwAq"
+              title="Puente Quinto - Quisiera (Live Session)"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="h-full w-full"
