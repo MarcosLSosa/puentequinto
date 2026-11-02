@@ -1,11 +1,9 @@
 export const shows = [
   {
-    date: "07 AGO · 23:00 HS",
-    city: "VILLA MERCEDES",
-    place: "BOLICHE DON MIRANDA",
+    date: "31 OCT",
+    city: "SAN MARTÍN Y SARMIENTO · VILLA MERCEDES",
+    place: "MODESTO BAR",
     status: "Último show",
-    flyer: "/images/flyer_puente_quinto_bolichelosmirandas.png",
-    map: "https://maps.app.goo.gl/9E5Skh7cM6tEuE2E7"
   },
   {
     date: "12 JUL",
