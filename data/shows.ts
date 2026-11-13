@@ -5,6 +5,8 @@ type Show = {
   place: string;
   venueDetail?: string;
   status: string;
+  map?: string;
+  flyer?: string;
   isUpcoming?: boolean;
   invitedAct?: string;
   invitedActDescription?: string;
