@@ -8,36 +8,34 @@ export default function PhotosSection() {
 
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20">
         <div
-          aria-label="Gráfica de escenario con la identidad de Puente Quinto"
-          className="relative isolate flex aspect-[4/3] w-full items-center justify-center overflow-hidden rounded-[1.75rem] border border-[#DCC08A]/20 bg-[#110d0b]"
+          role="img"
+          aria-label="Gráfica de escenario de Puente Quinto"
+          className="relative grid aspect-[4/3] min-h-96 w-full grid-rows-[auto_1fr_auto] overflow-hidden rounded-[1.75rem] border border-[#DCC08A]/20 bg-[#110d0b] p-6 sm:p-8"
         >
-          <div className="absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_50%_105%,rgba(209,108,55,0.42),transparent_58%),radial-gradient(ellipse_at_50%_-20%,rgba(220,192,138,0.12),transparent_55%)]" />
-          <div className="absolute inset-x-[18%] top-0 -z-10 h-full origin-top skew-x-[-18deg] bg-gradient-to-b from-[#DCC08A]/10 via-[#D16C37]/[0.06] to-transparent blur-2xl" />
-          <div className="absolute inset-4 rounded-[1.2rem] border border-white/10" />
+          <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_50%_60%,rgba(209,108,55,0.24),transparent_52%),linear-gradient(135deg,rgba(220,192,138,0.08),transparent_42%)]" />
+          <div className="pointer-events-none absolute inset-4 rounded-[1.2rem] border border-white/10" />
 
-          <div className="relative flex flex-col items-center text-center">
-            <p className="text-[0.6rem] uppercase tracking-[0.48em] text-[#DCC08A]/75 sm:text-xs">
-              Puente Quinto · En vivo
-            </p>
-            <div className="relative my-6 flex h-40 w-40 items-center justify-center rounded-full border border-[#DCC08A]/35 sm:my-8 sm:h-52 sm:w-52">
+          <div className="relative flex items-center justify-between gap-4 text-[0.55rem] uppercase tracking-[0.28em] text-[#DCC08A]/75 sm:text-xs">
+            <span>Puente Quinto</span>
+            <span>Villa Mercedes · En vivo</span>
+          </div>
+
+          <div className="relative flex min-h-0 flex-col items-center justify-center py-5 text-center">
+            <div className="relative flex h-32 w-32 shrink-0 items-center justify-center rounded-full border border-[#DCC08A]/35 sm:h-40 sm:w-40">
               <div className="absolute inset-2 rounded-full border border-[#DCC08A]/15" />
-              <div className="absolute inset-5 rounded-full bg-[#D16C37]/10 blur-xl" />
-              <span className="relative text-5xl font-black tracking-[-0.12em] text-[#f1dfb8] sm:text-7xl">
+              <span className="relative text-5xl font-black tracking-[-0.12em] text-[#f1dfb8] sm:text-6xl">
                 PQ
               </span>
             </div>
-            <p className="text-lg font-semibold uppercase tracking-[0.32em] text-white sm:text-2xl">
+            <p className="mt-5 text-sm font-semibold uppercase tracking-[0.2em] text-white sm:text-xl sm:tracking-[0.3em]">
               Soul · Funk · Baladas
             </p>
-            <div
-              aria-hidden="true"
-              className="mt-7 flex h-8 items-center gap-[3px] sm:mt-9"
-            >
-              {[10, 17, 24, 13, 28, 19, 11, 25, 16, 29, 13, 21, 10, 18, 26, 12, 22, 15, 28, 11, 19, 25, 13, 21, 9].map(
+            <div aria-hidden="true" className="mt-5 flex h-5 items-center gap-[3px]">
+              {[8, 14, 19, 11, 17, 9, 15, 20, 12, 17, 8, 14, 19, 10, 16, 8, 13].map(
                 (height, index) => (
                   <span
                     key={index}
-                    className="w-[2px] rounded-full bg-gradient-to-t from-[#D16C37] to-[#DCC08A]/70 sm:w-[3px]"
+                    className="w-[2px] rounded-full bg-gradient-to-t from-[#D16C37] to-[#DCC08A]/70"
                     style={{ height }}
                   />
                 ),
@@ -45,9 +43,10 @@ export default function PhotosSection() {
             </div>
           </div>
 
-          <p className="absolute bottom-7 left-0 right-0 text-center text-[0.55rem] uppercase tracking-[0.32em] text-white/40 sm:text-[0.65rem]">
-            Galería de shows · Próximamente
-          </p>
+          <div className="relative flex items-center justify-between gap-3 border-t border-white/10 pt-4 text-[0.5rem] uppercase tracking-[0.18em] text-white/45 sm:text-[0.6rem]">
+            <span>Galería de shows</span>
+            <span>Próximamente</span>
+          </div>
         </div>
 
         <div className="lg:py-8">
