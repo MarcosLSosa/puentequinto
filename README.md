@@ -7,6 +7,8 @@ La página está diseñada como una experiencia moderna y oscura, con foco en:
 - sección de bienvenida con identidad visual
 - navegación fija con logo y menús de anclaje
 - música destacada con reproductor de Spotify
+- próximas fechas y shows anteriores
+- galería de fotos de la banda y sus shows
 - video principal de la banda
 - contacto directo para contrataciones via WhatsApp
 
@@ -16,6 +18,8 @@ La página está diseñada como una experiencia moderna y oscura, con foco en:
 - `components/Navbar.tsx` — menú fijo con logo e links internos
 - `components/Hero.tsx` — sección de portada con mensaje de la banda
 - `components/SpotifySection.tsx` — embed de Spotify y pistas recomendadas
+- `components/ShowsSection.tsx` — próximas fechas y shows anteriores
+- `components/PhotosSection.tsx` — fotos de la banda y sus shows
 - `components/VideosSection.tsx` — video destacado
 - `components/ContactSection.tsx` — datos de contratación y llamada a WhatsApp
 - `app/globals.css` — estilo global y tema oscuro

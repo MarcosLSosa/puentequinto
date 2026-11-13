@@ -20,6 +20,12 @@ export default function Navbar() {
           <a href="#musica" className="transition hover:text-[#DCC08A]">
             #musica
           </a>
+          <a href="#shows" className="transition hover:text-[#DCC08A]">
+            #shows
+          </a>
+          <a href="#fotos" className="transition hover:text-[#DCC08A]">
+            #fotos
+          </a>
           <a href="#videos" className="transition hover:text-[#DCC08A]">
             #videos
           </a>

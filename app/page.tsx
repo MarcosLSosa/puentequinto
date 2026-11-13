@@ -3,6 +3,7 @@ import Hero from "../components/Hero";
 import SpotifySection from "../components/SpotifySection";
 import VideosSection from "../components/VideosSection";
 import ShowsSection from "../components/ShowsSection";
+import PhotosSection from "../components/PhotosSection";
 import ContactSection from "../components/ContactSection";
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <SpotifySection />
         <ShowsSection />
+        <PhotosSection />
         <VideosSection />
         <ContactSection />
       </main>
