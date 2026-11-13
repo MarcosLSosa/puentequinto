@@ -6,7 +6,7 @@ export default function VideosSection() {
           <p className="text-[0.65rem] uppercase tracking-[0.35em] text-[#DCC08A]/80 sm:text-sm">
             Video destacado
           </p>
-          <h2 className="mt-4 text-4xl font-bold sm:text-5xl md:text-6xl">El Fin - Live Session</h2>
+          <h2 className="mt-4 text-4xl font-bold sm:text-5xl md:text-6xl">Quisiera - Live Session</h2>
         </div>
 
         <div className="overflow-hidden rounded-[2rem] border border-white/10 shadow-[0_35px_70px_-40px_rgba(0,0,0,0.9)]">
@@ -14,8 +14,8 @@ export default function VideosSection() {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube-nocookie.com/embed/rClnYgIbPU8"
-              title="Puente Quinto - El fin"
+              src="https://www.youtube.com/watch?v=j-dvyyTvhSM"
+              title="Puente Quinto - Quisiera"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               className="h-full w-full"
