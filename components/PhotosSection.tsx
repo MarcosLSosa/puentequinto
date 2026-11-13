@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function PhotosSection() {
   return (
     <section
@@ -21,11 +23,16 @@ export default function PhotosSection() {
           </div>
 
           <div className="relative flex min-h-0 flex-col items-center justify-center py-5 text-center">
-            <div className="relative flex h-32 w-32 shrink-0 items-center justify-center rounded-full border border-[#DCC08A]/35 sm:h-40 sm:w-40">
+            <div className="relative flex h-32 w-32 shrink-0 items-center justify-center overflow-hidden rounded-full border border-[#DCC08A]/35 sm:h-40 sm:w-40">
               <div className="absolute inset-2 rounded-full border border-[#DCC08A]/15" />
-              <span className="relative text-5xl font-black tracking-[-0.12em] text-[#f1dfb8] sm:text-6xl">
-                PQ
-              </span>
+              <Image
+                src="/images/logo.jpg"
+                alt="Logo de Puente Quinto"
+                width={160}
+                height={160}
+                className="h-full w-full object-cover"
+                priority
+              />
             </div>
             <p className="mt-5 text-sm font-semibold uppercase tracking-[0.2em] text-white sm:text-xl sm:tracking-[0.3em]">
               Soul · Funk · Baladas
