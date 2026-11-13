@@ -9,17 +9,17 @@ export default function PhotosSection() {
       <div className="pointer-events-none absolute -left-32 top-1/4 h-80 w-80 rounded-full bg-[#DCC08A]/[0.07] blur-3xl" />
 
       <div className="relative mx-auto grid max-w-6xl items-center gap-12 lg:grid-cols-[1.05fr_0.95fr] lg:gap-20">
-        <figure className="relative">
+        <figure className="relative w-full max-w-[25rem] justify-self-center">
           <div className="absolute -inset-3 rotate-2 rounded-[2rem] border border-[#DCC08A]/20" />
-          <div className="relative aspect-[4/3] overflow-hidden rounded-[1.75rem]">
+          <div className="relative aspect-[1027/1600] overflow-hidden rounded-[1.75rem] bg-[#17130e]">
             <Image
               src="/images/banda.jpg"
-              alt="Puente Quinto junto a su equipo de sonido"
+              alt="Los cuatro integrantes de Puente Quinto"
               fill
-              sizes="(min-width: 1024px) 52vw, 100vw"
-              className="object-cover object-[50%_34%] transition-transform duration-700 motion-safe:hover:scale-105"
+              sizes="(min-width: 1024px) 36vw, 82vw"
+              className="object-contain transition-transform duration-700 motion-safe:hover:scale-[1.02]"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
+            <div className="absolute inset-x-0 bottom-0 h-28 bg-gradient-to-t from-black/55 to-transparent" />
             <figcaption className="absolute bottom-5 left-5 text-xs uppercase tracking-[0.2em] text-white/80 sm:bottom-7 sm:left-7">
               Puente Quinto · Villa Mercedes
             </figcaption>

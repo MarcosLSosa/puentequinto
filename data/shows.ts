@@ -14,7 +14,7 @@ type Show = {
 
 export const shows: Show[] = [
   {
-    date: "12 DIC",
+    date: "18 DIC",
     year: 2026,
     city: "VILLA MERCEDES · SAN LUIS",
     place: "BOLICHE DON MIRANDA",
