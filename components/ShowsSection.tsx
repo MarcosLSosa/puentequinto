@@ -54,6 +54,22 @@ export default function ShowsSection() {
                 </div>
               )}
 
+              {show.ticketWhatsAppNumber && (
+                <a
+                  href={`https://wa.me/${show.ticketWhatsAppNumber}?text=${encodeURIComponent(
+                    `Hola, quiero consultar por entradas anticipadas para el show del ${show.date} en ${show.place}.`,
+                  )}`}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="relative mt-7 inline-flex w-full items-center justify-center rounded-full bg-[#DCC08A] px-5 py-3 text-center text-sm font-semibold uppercase tracking-[0.12em] text-black transition hover:bg-[#f1d99f] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#DCC08A]"
+                >
+                  Pedí tus entradas por WhatsApp
+                  <span className="ml-2 font-normal normal-case tracking-normal">
+                    2657 527189
+                  </span>
+                </a>
+              )}
+
               {(show.map || show.flyer) && (
                 <div className="relative mt-8 flex flex-wrap gap-3 border-t border-white/10 pt-5">
                   {show.map && (

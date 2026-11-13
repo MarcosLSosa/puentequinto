@@ -10,6 +10,7 @@ type Show = {
   isUpcoming?: boolean;
   invitedAct?: string;
   invitedActDescription?: string;
+  ticketWhatsAppNumber?: string;
 };
 
 export const shows: Show[] = [
@@ -23,6 +24,7 @@ export const shows: Show[] = [
     isUpcoming: true,
     invitedAct: "NO TAN VERDES",
     invitedActDescription: "Tributo a Los Enanitos Verdes",
+    ticketWhatsAppNumber: "5492657527189",
   },
   {
     date: "31 OCT",
